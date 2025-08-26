@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import Title from './components/Title'
 import Filter from './components/Filter'
 import Task from './components/Task'

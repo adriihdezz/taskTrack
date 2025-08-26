@@ -1,4 +1,5 @@
 import React from 'react'
+import eye from '../assets/eye.svg'
 
 const Task = () => {
   return (
@@ -7,11 +8,11 @@ const Task = () => {
             <h2>20</h2>
             <h4>SEPT</h4>
         </div>
-        <div className='w-[60%] h-11 bg-blueDate rounded-2xl ml-2 flex justify-center items-center'>
+        <div className='xl:w-[70%] xs:w-[60%] xm:w-[65%] h-11 bg-blueDate rounded-2xl ml-2 flex justify-center items-center'>
           <h3>Go running</h3>
         </div>
         <button className='w-8 h-8 rounded-full bg-blueDate ml-2 flex justify-center items-center hover:bg-blueDateHover'>
-          <img src="/eye.svg" className='w-4 h-4'/>
+          <img src={eye} className='w-4 h-4' />
         </button>
     </div>
   )
