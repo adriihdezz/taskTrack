@@ -3,21 +3,25 @@ import Title from './components/Title'
 import Filter from './components/Filter'
 import Task from './components/Task'
 import AddButton from './components/AddButton'
+import CreateNewTask from './components/CreateNewTask'
 
 function App() {
   const [count, setCount] = useState(0)
   const [tasks, setTasks] = useState([])
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <div className='relative flex flex-col justify-center items-center w-[100%]'>
       <Title />
       <Filter />
-      <div className='w-[100%] h-[79dvh] flex flex-col justify-start items-center mt-5 gap-2 overflow-scroll'>
+      <div className='w-[100%] h-[80.5dvh] flex flex-col justify-start items-center mt-5 gap-2 overflow-scroll'>
         {tasks.map((task, index) => 
           <Task key={index}/>
         )}
       </div>
-      <AddButton tasks={tasks} setTasks={setTasks}/> 
+      <AddButton setIsOpen={setIsOpen}/>
+
+      <CreateNewTask isOpen={isOpen} setIsOpen={setIsOpen}/> 
     </div>
   )
 }

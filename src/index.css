@@ -6,7 +6,8 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 97dvh;
+  height: 100vh;  /* Uses 2 heights due to minor height bugs spreaded in some browers that do not support dvh format */
+  height: 100dvh;
   font-family: "Lilita One", sans-serif;
 }
 
@@ -17,6 +18,7 @@
   --color-task: #D9D9D9;
   --color-addButton: #C76A2C;
   --color-addButtonHover: #965225;
+  --color-grayButton: #B1AFAF;
   --color-taskCompleted: rgba(39, 299, 64, 0.5);
   --color-taskPending: rgba(255,204, 0.5);
   --color-taskOverdue: rgba(255, 95, 87, 0.5);
