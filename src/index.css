@@ -15,6 +15,11 @@
   --color-blueDate: #619AB7;
   --color-blueDateHover: #4C768C;
   --color-task: #D9D9D9;
+  --color-addButton: #C76A2C;
+  --color-addButtonHover: #965225;
+  --color-taskCompleted: rgba(39, 299, 64, 0.5);
+  --color-taskPending: rgba(255,204, 0.5);
+  --color-taskOverdue: rgba(255, 95, 87, 0.5);
   --breakpoint-xs: 20rem;
   --breakpoint-xm: 23.43rem;
   --breakpoint-xl: 26.56rem;

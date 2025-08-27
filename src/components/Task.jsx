@@ -8,10 +8,11 @@ const Task = () => {
             <h2>20</h2>
             <h4>SEPT</h4>
         </div>
-        <div className='xl:w-[70%] xs:w-[60%] xm:w-[65%] h-11 bg-blueDate rounded-2xl ml-2 flex justify-center items-center'>
+        <div className='w-[5%] h-5 bg-taskOverdue'></div>
+        <div className='xl:w-[67%] xs:w-[57%] xm:w-[62%] h-11 bg-blueDate rounded-2xl flex justify-center items-center'>
           <h3>Go running</h3>
         </div>
-        <button className='w-8 h-8 rounded-full bg-blueDate ml-2 flex justify-center items-center hover:bg-blueDateHover'>
+        <button className='w-8 h-8 rounded-full bg-blueDate ml-2 flex justify-center items-center active:bg-blueDateHover'>
           <img src={eye} className='w-4 h-4' />
         </button>
     </div>
