@@ -12,7 +12,7 @@ function App() {
     <div className='relative flex flex-col justify-center items-center w-[100%]'>
       <Title />
       <Filter />
-      <div className='w-[100%] h-[82dvh] flex flex-col justify-start items-center mt-5 gap-2 overflow-scroll'>
+      <div className='w-[100%] h-[79dvh] flex flex-col justify-start items-center mt-5 gap-2 overflow-scroll'>
         {tasks.map((task, index) => 
           <Task key={index}/>
         )}
